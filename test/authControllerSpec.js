@@ -10,7 +10,7 @@ const User = require('../lib/user/entity/user');
 const _serverPath = "http://localhost:" + Parameters.server.port;
 const _privateKey = Parameters.key.privateKey;
 const _facticeUser = {
-    email: 'marchanin@hotmail.fr',
+    email: 'yourEmail@yourDomain.com',
     password: 'toto'
 };
 
