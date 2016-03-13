@@ -10,8 +10,8 @@ const User = require('../lib/user/entity/user');
 const _serverPath = "http://localhost:" + Parameters.server.port;
 const _privateKey = Parameters.key.privateKey;
 const _facticeUser = {
-    email: 'yourEmail@yourDomain.com',
-    password: 'toto'
+    email: Parameters.tests.facticeUser.email,
+    password: Parameters.tests.facticeUser.password
 };
 
 describe('auth controller', () => {

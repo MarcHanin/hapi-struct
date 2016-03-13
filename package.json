@@ -1,6 +1,6 @@
 {
   "name": "hapi-struct",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Boilerplate for Hapi api",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "start": "./node_modules/gulp/bin/gulp.js"
   },
   "author": "Marc Hanin <marchanin@hotmail.fr>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bcrypt": "^0.8.5",
     "boom": "^3.1.1",

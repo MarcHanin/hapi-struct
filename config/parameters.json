@@ -19,5 +19,11 @@
     "email": "senderMail@website.com",
     "userName": "YourMailAccount",
     "password": "YourMailPassword"
+  },
+  "tests": {
+    "facticeUser": {
+        "email": "senderMail@website.com",
+        "password": "YourPassword"
+    }
   }
 }
