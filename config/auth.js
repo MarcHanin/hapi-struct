@@ -12,7 +12,7 @@ function validate(decoded, token, cb) {
 
     if (decoded.authLink) {
         if (diff > ttl) {
-            return callback(null, false);
+            return cb(null, false);
         }
 
         User.findOne({_id: decoded.id}, (err, user) => {
